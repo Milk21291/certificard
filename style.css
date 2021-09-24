@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  position: absolute;
+  width: 499px;
+  height: 42px;
+  left: 322px;
+  top: 117px;
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.tema button {
+  font-size: 16px;
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 940px;
+  top: 92px;
+  font-weight: 400;
+
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.projtos {
+  margin: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos ul {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.projetos li {
+  font-weight: 400;
+  font-size: 24px;
+  list-style-type: none;
+  line-height: 42px;
+}
+
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.container-projeto a:hover {
+  color: #ecf4ff;
+}
+
+h {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.logo-yutube {
+  width: 30px;
+  top: 0px;
+  right: 0px;
+  margin-left: -20px;
+}
+
+.logo-istagram {
+  width: 30px;
+  top: 20px;
+  right: 10px;
+  margin-left: 5px;
+}
+
+.lin {
+  list-style-type: none;
+  display: flex;
+  flex-direction: left;
+  margin-left: -18px;
+  width: 30px;
+  top: 5px;
+  right: 10px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.link {
+  list-style-type: none;
+  display: flex;
+  flex-direction: left;
+  margin-left: -18px;
+  width: 30px;
+  top: 5px;
+  right: 10px;
+}
+
+.logo-youtube {
+  width: 30px;
+  top: 56px;
+  right: 0px;
+  margin-left: -20px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: 1c1c1c;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #1c1c1c;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
